@@ -65,7 +65,7 @@ function checkBounds()
 	}
 
 	var windowWidth = document.documentElement.clientWidth,
-		windowHeight = document.documentElement.clientHeight;
+	    windowHeight = document.documentElement.clientHeight;
 
 	if ( position.x > windowWidth - diameter )
 	{
