@@ -1,10 +1,3 @@
-/* 
- * Gyro.js 
- * Authored by Ryhan Hassan
- * 
- * Controls acceleration of #ball
- */
-
 var ball = document.getElementById("ball");
 
 var diameter = 40;
@@ -15,8 +8,8 @@ var vector = function(x,y){
 }
 
 var position = new vector( 0, 0),
-	velocity = new vector( 0, 0),
-	acceleration = new vector( 0, 0);
+    velocity = new vector( 0, 0),
+    acceleration = new vector( 0, 0);
 
 if ( window.DeviceMotionEvent != undefined ) 
 {
